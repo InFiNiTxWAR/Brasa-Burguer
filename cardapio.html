@@ -23,8 +23,6 @@
             </nav>
         </div>
     </header>
-
-    <!-- HAMBURGUERES -->
     <section class="cardapio">
         <div class="container">
             <h2>Hambúrgueres</h2>
@@ -83,8 +81,6 @@
             </div>
         </div>
     </section>
-
-    <!-- BEBIDAS -->
     <section class="cardapio">
         <div class="container">
             <h2>Bebidas</h2>
@@ -162,7 +158,6 @@
         </div>
     </section>
 
-    <!-- SOBREMESAS -->
     <section class="cardapio">
         <div class="container">
             <h2>Sobremesas</h2>
@@ -193,11 +188,20 @@
             </div>
         </div>
     </section>
+    <div id="modalProduto" class="modal"></div>
 
+    <div class="carrinho">
+        <h3>Carrinho</h3>
+        <ul id="listaCarrinho"></ul>
+        <p id="totalCarrinho">Total: R$ 0,00</p>
+        <button onclick="finalizarPedido()" class="btn">Finalizar Pedido</button>
+    </div>
     <footer class="footer">
         <p>© 2026 Brasa Burger - Todos os direitos reservados</p>
     </footer>
+    <script src="js/script.js"></script>
 
 </body>
+
 
 </html>
